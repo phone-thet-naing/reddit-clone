@@ -2,6 +2,7 @@
 import NextAuth, { AuthOptions } from "next-auth";
 import GoogleProvider from "next-auth/providers/google";
 import GithubProvider from "next-auth/providers/github";
+import Credentials from "next-auth/providers/credentials";
 
 const authOptions: AuthOptions = {
     secret: process.env.NEXTAUTH_SECRET,
@@ -9,18 +10,25 @@ const authOptions: AuthOptions = {
         GoogleProvider({
             clientId: process.env.GOOGLE_CLIENT_ID || "",
             clientSecret: process.env.GOOGLE_CLIENT_SECRET || "",
-            // authorization: {
-            //     params: {
-            //         prompt: "consent",
-            //         access_type: "offline",
-            //         response_type: "code"
-            //     }
-            // }
+            authorization: {
+                params: {
+                    prompt: "consent",
+                    access_type: "offline",
+                    response_type: "code"
+                }
+            }
         }),
-        GithubProvider({
-            clientId: process.env.GITHUB_ID || "", 
-            clientSecret: process.env.GITHUB_SECRET || "",
-        })
+        // Credentials({
+        //     credentials: {
+        //         email: {},
+        //         password: {}
+        //     },
+        //     authorize: async (credentials) => {
+        //         let user = null
+
+        //         const pwHash = 
+        //     }
+        // }),
     ],
 }
 

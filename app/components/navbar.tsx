@@ -9,7 +9,7 @@ const Navbar = () => {
                 <Image
                     priority
                     src={redditLogo}
-                    height={45}
+                    height={40}
                     alt="logo"
                 />
             </a>

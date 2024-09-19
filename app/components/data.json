@@ -1,0 +1,14 @@
+[
+    {
+        "type": "assign",
+        "title": "Digital Helpdesk - Assign Ticket",
+        "body": "<p>A ticket has been assign to you by @{triggerBody()['text_2']}. Please see the following information for more detail. </p> <p><strong> Ticket ID</strong> - <a href='@{outputs('Ticket_Link')}'>@{outputs('Ticket_Code')} </a> </p> <p><strong>Ticket Title</strong> - @{triggerBody()['text_4']}</p> <p><strong>Ticket Description</strong> - @{triggerBody()['text_1']}</p>"
+    },
+    {
+        "type": "reopened",
+        "title": "Digital Helpdesk - Ticket Reopened",
+        "body": "<p>The ticket you handled has been reopened by @{triggerBody()['text_2']}. Please see the following information for more detail. </p> <p><strong> Ticket ID</strong> - <a href='@{outputs('Ticket_Link')}'>@{outputs('Ticket_Code')} </a> </p> <p><strong>Ticket Title</strong> - @{triggerBody()['text_4']}</p> <p><strong>Ticket Description</strong> - @{triggerBody()['text_1']}</p>"
+    }
+]
+
+<a href=\"&pagetype=entityrecord&etn=hpdk_ticket&id=@{variables('ticket')?['hpdk_ticketid']}\">
