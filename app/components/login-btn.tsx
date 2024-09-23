@@ -3,9 +3,7 @@
 'use client'
 
 import { useSession, signIn, signOut } from "next-auth/react";
-import Image from "next/image";
 import { useState } from "react";
-import DropdownMenu from "./dropdown-menu";
 
 export default function LoginBtn() {
     const { data: session } = useSession()

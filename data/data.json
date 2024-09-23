@@ -1,0 +1,54 @@
+{
+    "posts": [
+        {
+            "title": "Introduction to JavaScript",
+            "summary": "A beginner's guide to JavaScript programming.",
+            "post": "JavaScript is a versatile language used both on the client and server sides. In this blog post, we'll explore its basics."
+        },
+        {
+            "title": "Understanding React Components",
+            "summary": "An overview of functional and class-based components in React.",
+            "post": "React components are the building blocks of a React application. In this post, we'll look at how to create and use both functional and class-based components."
+        },
+        {
+            "title": "CSS Flexbox: A Practical Guide",
+            "summary": "A step-by-step guide to mastering CSS Flexbox.",
+            "post": "Flexbox is a powerful layout tool in CSS. This guide will help you understand its properties and how to use it to create responsive designs."
+        },
+        {
+            "title": "Top 10 Git Commands You Should Know",
+            "summary": "A list of essential Git commands for every developer.",
+            "post": "Git is an indispensable tool for version control. In this post, we cover the top 10 commands that every developer should be familiar with."
+        },
+        {
+            "title": "Building a REST API with Node.js",
+            "summary": "Learn how to build a simple REST API using Node.js and Express.",
+            "post": "In this tutorial, we'll create a REST API using Node.js and Express. You'll learn how to set up routes, handle requests, and manage data."
+        },
+        {
+            "title": "Introduction to TypeScript",
+            "summary": "Why TypeScript is a great addition to your JavaScript code.",
+            "post": "TypeScript is a typed superset of JavaScript that helps prevent errors in your code. In this post, we'll discuss why and how to get started with TypeScript."
+        },
+        {
+            "title": "Mastering Asynchronous JavaScript",
+            "summary": "Understanding Promises, async/await, and callbacks in JavaScript.",
+            "post": "Asynchronous programming can be tricky, but JavaScript provides several ways to handle it. This post dives deep into Promises, async/await, and callbacks."
+        },
+        {
+            "title": "Optimizing Web Performance",
+            "summary": "Tips and techniques to make your website load faster.",
+            "post": "Web performance is critical for user experience. In this post, we'll share strategies for optimizing page load time and improving performance metrics."
+        },
+        {
+            "title": "Deploying a React App with Netlify",
+            "summary": "Step-by-step guide to deploying your React application on Netlify.",
+            "post": "Netlify is a popular platform for deploying static sites. In this post, we'll show you how to deploy a React app on Netlify in just a few steps."
+        },
+        {
+            "title": "Exploring the Fetch API",
+            "summary": "Using the Fetch API to make network requests in JavaScript.",
+            "post": "The Fetch API provides a modern interface for making HTTP requests in JavaScript. In this post, we'll explore how to use Fetch for network operations."
+        }
+    ]
+}
